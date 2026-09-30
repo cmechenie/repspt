@@ -1,0 +1,30 @@
+name: RepsPT
+options:
+  bundleIdPrefix: com.cristian.repspt
+  deploymentTarget:
+    iOS: "17.0"
+  defaultConfig: Debug
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: ""           # user fills in Xcode (Signing & Capabilities)
+    PRODUCT_BUNDLE_IDENTIFIER: com.cristian.repspt
+    MARKETING_VERSION: "0.1"
+    CURRENT_PROJECT_VERSION: "1"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_CFBundleDisplayName: RepsPT
+    INFOPLIST_KEY_NSCameraUsageDescription: "RepsPT records your set so it can grade your form. Video stays on this phone."
+    INFOPLIST_KEY_NSMicrophoneUsageDescription: "Audio is not used; required by AVFoundation when recording video."
+    INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "Save the recorded set to Photos for review."
+    INFOPLIST_KEY_UISupportedInterfaceOrientations: [UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+    INFOPLIST_KEY_UIRequiresFullScreen: YES
+targets:
+  RepsPT:
+    type: application
+    platform: iOS
+    sources:
+      - path: Reps
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1,2"

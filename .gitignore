@@ -1,0 +1,24 @@
+# Personal recordings and analysis output
+videos/
+output/
+
+# Internal dev notes / tooling config
+ios/SESSION_HANDOFF.md
+.claudeignore
+
+# Build artifacts
+prototype/.build/
+
+# Python environment / caches
+.venv/
+__pycache__/
+*.pyc
+DerivedData/
+build/
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store

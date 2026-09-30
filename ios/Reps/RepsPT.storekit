@@ -1,0 +1,39 @@
+{
+  "identifier": "RepsPTStoreKit",
+  "nonConsumableProducts": [],
+  "nonRenewingSubscriptionProducts": [],
+  "products": [],
+  "subscriptionGroups": [
+    {
+      "id": "repspt_pro_group",
+      "localizations": [],
+      "name": "Pro",
+      "subscriptions": [
+        {
+          "adHocOfferCodesEnabled": false,
+          "displayPrice": "29.99",
+          "familySharable": false,
+          "groupNumber": 1,
+          "internalID": "repspt_pro_annual_001",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Full access to all RepsPT Pro features: unlimited history, workout planner, AI-generated schedules, progress charts, and weekly summary cards.",
+              "displayName": "RepsPT Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.cristian.repspt.pro.annual",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "RepsPT Pro Annual",
+          "subscriptionGroupID": "repspt_pro_group",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 2,
+    "minor": 0
+  }
+}
